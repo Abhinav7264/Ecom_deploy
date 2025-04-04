@@ -137,9 +137,9 @@ ansible-playbook -i hosts.yml ansible-magento2.yml -k -vvv --become
 ### 2. Update Store Details
 
 - **Content > Configuration > Default Store View > Edit**
-  - `HTML Head > Default page title`: **The Cloud Bootcamp Store**
-  - `Header > Logo image`: Upload logo from your S3 bucket
-  - `Header > Welcome text`: **Welcome to The Cloud Bootcamp Store!**
+  - `HTML Head > Default page title`: **Your company Store**
+  - `Header > Logo image`: Upload your company logo
+  - `Header > Welcome text`: **Welcome to The "your company" Store!**
 
 ✅ Save Configuration
 
@@ -152,10 +152,10 @@ If prompted to refresh the cache:
 ### 3. Add Sample Product
 
 - **Catalog > Products > Add Product**
-  - Name: `The Cloud Bootcamp T-Shirt`
+  - Name: `Your company T-Shirt`
   - Price: `80`
   - Quantity: `100`
-  - Add image from your S3 bucket
+  - Add your product image
 
 ✅ Save
 
