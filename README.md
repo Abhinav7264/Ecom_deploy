@@ -15,7 +15,7 @@ Clone or download the  project repository containing the required assets and ima
 
 Public S3 Bucket Setup
 
-Upload the necessary e-commerce images (logo, product images, etc.) from the repository to your own public S3 bucket.
+Upload the necessary e-commerce images (logo, product images, etc.) , files from this repository to your own public S3 bucket.
 
 
 ## **Part 1: Deploying the E-commerce MVP with Terraform**
