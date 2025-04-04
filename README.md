@@ -5,6 +5,18 @@
 
 
 ---
+Pre-requisites
+
+Before proceeding with the deployment steps, ensure the following:
+
+GitHub Repository Access
+
+Clone or download the  project repository containing the required assets and image files.
+
+Public S3 Bucket Setup
+
+Upload the necessary e-commerce images (logo, product images, etc.) from the repository to your own public S3 bucket.
+
 
 ## **Part 1: Deploying the E-commerce MVP with Terraform**
 
@@ -32,7 +44,7 @@ sudo yum -y install terraform
 ```bash
 mkdir final_project
 cd final_project
-wget https://tcb-bootcamps.s3.amazonaws.com/bootcamp-aws/en/final-project-terraform.zip
+wget https://yourS3bucketname.s3.amazonaws.com/bootcamp-aws/en/final-project-terraform.zip
 unzip final-project-terraform.zip
 cd terraform
 ```
@@ -81,7 +93,7 @@ sudo yum install ansible -y
 ### 3. Download and Prepare Ansible Playbooks
 
 ```bash
-wget https://tcb-bootcamps.s3.amazonaws.com/bootcamp-aws/en/final-project-ansible-magento2.zip
+wget https://yourS3bucketname.s3.amazonaws.com/bootcamp-aws/en/final-project-ansible-magento2.zip
 unzip final-project-ansible-magento2.zip
 cd ansible-magento2
 ```
